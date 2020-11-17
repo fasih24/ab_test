@@ -35,9 +35,12 @@ public void printInfo() {
 	              link.add(bankAc);
 	              link.add(bankAc2);
 	              link.add(bankAc3);
+	              link.add(new StringTestingClass(123,"fasihuddin","checking"));
+	           
 	              for(StringTestingClass b:link) {
-	            	 //System.out.println(b.aa+" : "+b.bb+" : "+b.cc);
-	            	  b.printInfo();
+	            	 System.out.println(b.aa+" : "+b.bb+" : "+b.cc);
+	            	
+	            	//  b.printInfo();
 	            	  }
 //	  HashMap<String,String> capital=new HashMap<String, String>(); 
 //	                     capital.put("usa", "DC");

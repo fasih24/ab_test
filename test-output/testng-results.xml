@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-14T21:03:14Z" name="Default suite" finished-at="2020-10-14T21:03:45Z" duration-ms="31265">
+  <suite started-at="2020-10-26T18:43:55Z" name="Default suite" finished-at="2020-10-26T18:44:41Z" duration-ms="45765">
     <groups>
     </groups>
-    <test started-at="2020-10-14T21:03:14Z" name="Default test" finished-at="2020-10-14T21:03:45Z" duration-ms="31265">
+    <test started-at="2020-10-26T18:43:55Z" name="Default test" finished-at="2020-10-26T18:44:41Z" duration-ms="45765">
       <class name="testCases.EBFSSignUpAndLogIn">
-        <test-method is-config="true" signature="initilization()[pri:0, instance:testCases.EBFSSignUpAndLogIn@2f08c4b]" started-at="2020-10-14T21:03:14Z" name="initilization" finished-at="2020-10-14T21:03:20Z" duration-ms="5725" status="PASS">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:testCases.EBFSSignUpAndLogIn@2f08c4b]" started-at="2020-10-26T18:43:55Z" name="initilization" finished-at="2020-10-26T18:44:10Z" duration-ms="14218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilization -->
-        <test-method signature="googleSerach()[pri:0, instance:testCases.EBFSSignUpAndLogIn@2f08c4b]" started-at="2020-10-14T21:03:20Z" name="googleSerach" finished-at="2020-10-14T21:03:34Z" duration-ms="14868" status="FAIL">
+        <test-method signature="googleSerach()[pri:0, instance:testCases.EBFSSignUpAndLogIn@2f08c4b]" started-at="2020-10-26T18:44:10Z" name="googleSerach" finished-at="2020-10-26T18:44:30Z" duration-ms="20455" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
-  (Session info: chrome=86.0.4240.75)
+  (Session info: chrome=86.0.4240.111)
 Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
-System info: host: 'LAPTOP-89JUI0BR', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+System info: host: 'LAPTOP-89JUI0BR', ip: '192.168.1.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\uddin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a75b81519cdcf2a8766615b98c4aa293]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\uddin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea70a4dba3482889cb72757e8aa1003a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=86.0.4240.75)
+  (Session info: chrome=86.0.4240.111)
 Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
-System info: host: 'LAPTOP-89JUI0BR', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+System info: host: 'LAPTOP-89JUI0BR', ip: '192.168.1.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\uddin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a75b81519cdcf2a8766615b98c4aa293
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\uddin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ea70a4dba3482889cb72757e8aa1003a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -75,7 +75,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSerach -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.EBFSSignUpAndLogIn@2f08c4b]" started-at="2020-10-14T21:03:34Z" name="closeBrowser" finished-at="2020-10-14T21:03:45Z" duration-ms="10654" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.EBFSSignUpAndLogIn@2f08c4b]" started-at="2020-10-26T18:44:30Z" name="closeBrowser" finished-at="2020-10-26T18:44:41Z" duration-ms="11044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
